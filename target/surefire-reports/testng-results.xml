@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="11416" started-at="2020-09-22T21:44:50 EDT" finished-at="2020-09-22T21:45:02 EDT">
+    <groups>
+    </groups>
+    <test name="Test-1" duration-ms="11416" started-at="2020-09-22T21:44:50 EDT" finished-at="2020-09-22T21:45:02 EDT">
+      <class name="Test.AmazonTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.AmazonTest@42dafa95]" name="setup" is-config="true" duration-ms="5401" started-at="2020-09-22T21:44:45 EDT" finished-at="2020-09-22T21:44:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOne()[pri:1, instance:Test.AmazonTest@42dafa95]" name="testOne" duration-ms="9180" started-at="2020-09-22T21:44:50 EDT" finished-at="2020-09-22T21:44:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+      </class> <!-- Test.AmazonTest -->
+      <class name="Test.NewToursTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.NewToursTest@6500df86]" name="setup" is-config="true" duration-ms="7060" started-at="2020-09-22T21:44:38 EDT" finished-at="2020-09-22T21:44:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginMethod()[pri:2, instance:Test.NewToursTest@6500df86]" name="loginMethod" duration-ms="2179" started-at="2020-09-22T21:44:59 EDT" finished-at="2020-09-22T21:45:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:Test.NewToursTest@6500df86]" name="closeWindow" is-config="true" duration-ms="702" started-at="2020-09-22T21:45:02 EDT" finished-at="2020-09-22T21:45:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Test.NewToursTest -->
+    </test> <!-- Test-1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
